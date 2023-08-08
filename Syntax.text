@@ -8,4 +8,7 @@ Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
 ** You should also note that each code statement must end with a semicolon (;).
 3. When you are working with text, it must be wrapped inside double quotations marks "".
 4. we don't put numbers inside double quotes.
-** You can also perform mathematical calculations inside the println() method
+** You can also perform mathematical calculations inside the println() method.
+5. We use comments to explain what our code does or how it works. Single line Comments begin with //
+** It can also be used to prevent execution when testing alternative code.
+6. Multi-line comments start with /* and ends with */.
