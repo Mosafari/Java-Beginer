@@ -76,3 +76,7 @@ To create a variable, you must specify the type and assign it a value:
     double d1 = 12E4d;
 
 - Java has a boolean data type, which can only take the values true or false
+
+- The char data type is used to store a single character. The character must be surrounded by
+    single quotes, like 'A' or 'c'.
+
