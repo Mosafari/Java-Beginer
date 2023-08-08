@@ -58,7 +58,11 @@ public class Main {
     System.out.println(f1);
     System.out.println(d1);
 
-
+    //  boolean
+    boolean isJavaFun = true;
+    boolean isFishTasty = false;
+    System.out.println(isJavaFun);     // Outputs true
+    System.out.println(isFishTasty);   // Outputs false
 
 
 
