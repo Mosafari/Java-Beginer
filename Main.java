@@ -17,5 +17,16 @@ public class Main {
     // char myLetter = 'D';
     // boolean myBool = true;
     // String myText = "Hello";
+
+    String firstName = "John ";
+    String lastName = "Doe";
+    String fullName = firstName + lastName;
+    System.out.println(fullName);
+    System.out.println("John "+ lastName);
+
+    int x = 5;
+    int y = 6;
+    System.out.println(x + y); // Print the value of x + y
+
   }
 }
