@@ -100,3 +100,10 @@ To create a variable, you must specify the type and assign it a value:
 ** Narrowing casting must be done manually by placing the type in parentheses in front of the value:
     double myDouble = 9.78d;
     int myInt = (int) myDouble; // Manual casting: double to int
+
+12. Java divides the operators into the following groups:
+    Arithmetic operators +,-,*,/,%,++,--
+    Assignment operators =,+=,-=,*=,/=,%=,&=,|=,^=,>>=,<<=
+    Comparison operators ==,!=,<,>,>=,<=
+    Logical operators &&,||,!
+    Bitwise operators
