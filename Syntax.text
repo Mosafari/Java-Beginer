@@ -80,3 +80,11 @@ To create a variable, you must specify the type and assign it a value:
 - The char data type is used to store a single character. The character must be surrounded by
     single quotes, like 'A' or 'c'.
 
+- Non-primitive data types are called reference types because they refer to objects.
+** The main difference between primitive and non-primitive data types are:
+    .Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer
+     and is not defined by Java (except for String).
+    .Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+    .A primitive type has always a value, while non-primitive types can be null.
+    .A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+
