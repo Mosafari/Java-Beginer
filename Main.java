@@ -28,5 +28,11 @@ public class Main {
     int y = 6;
     System.out.println(x + y); // Print the value of x + y
 
+    // Declare Many Variables
+    int a = 5, b = 6, c = 50;
+    System.out.println(a + b + c);
+    int f, e, d;
+    f = e = d = 50;
+    System.out.println(e + f + d);
   }
 }
