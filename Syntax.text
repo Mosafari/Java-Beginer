@@ -7,4 +7,5 @@ Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
 ** Note: The curly braces {} marks the beginning and the end of a block of code.
 ** You should also note that each code statement must end with a semicolon (;).
 3. When you are working with text, it must be wrapped inside double quotations marks "".
-
+4. we don't put numbers inside double quotes.
+** You can also perform mathematical calculations inside the println() method
