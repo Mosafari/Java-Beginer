@@ -1,0 +1,10 @@
+1. A class should always start with an uppercase first letter.
+Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+** The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename.
+2. The main() method is required and you will see it in every Java program :
+    public static void main(String[] args)
+    ** Any code inside the main() method will be executed. 
+** Note: The curly braces {} marks the beginning and the end of a block of code.
+** You should also note that each code statement must end with a semicolon (;).
+3. When you are working with text, it must be wrapped inside double quotations marks "".
+
