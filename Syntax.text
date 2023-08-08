@@ -1,17 +1,23 @@
 1. A class should always start with an uppercase first letter.
 Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
 ** The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename.
+
 2. The main() method is required and you will see it in every Java program :
     public static void main(String[] args)
     ** Any code inside the main() method will be executed. 
 ** Note: The curly braces {} marks the beginning and the end of a block of code.
 ** You should also note that each code statement must end with a semicolon (;).
+
 3. When you are working with text, it must be wrapped inside double quotations marks "".
+
 4. we don't put numbers inside double quotes.
 ** You can also perform mathematical calculations inside the println() method.
+
 5. We use comments to explain what our code does or how it works. Single line Comments begin with //
 ** It can also be used to prevent execution when testing alternative code.
+
 6. Multi-line comments start with /* and ends with */.
+
 7. Variables are containers for storing data values.
 ** In Java, there are different types of variables, for example:
 
@@ -44,3 +50,27 @@ To create a variable, you must specify the type and assign it a value:
     Names can also begin with $ and _ (but we will not use it in this tutorial)
     Names are case sensitive ("myVar" and "myvar" are different variables)
     Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+
+10. Data types are divided into two groups:
+    Primitive data types - includes byte, short, int, long, float, double, boolean and char
+    Non-primitive data types - such as String, Arrays and Classes.
+
+- Primitive number types are divided into two groups:
+    Integer types stores whole numbers, positive or negative (such as 123 or -456),
+     without decimals. Valid types are byte, short, int and long. Which type you should use,
+      depends on the numeric value.
+
+    Floating point types represents numbers with a fractional part, containing one or more decimals.
+     There are two types: float and double.
+
+- The float and double data types can store fractional numbers. 
+    ** Note that you should end the value with an "f" for floats and "d" for doubles
+    -- Use float or double?
+        The precision of a floating point value indicates how many digits the value can
+        have after the decimal point. The precision of float is only six or seven decimal
+        digits, while double variables have a precision of about 15 digits. Therefore it 
+        is safer to use double for most calculations.
+
+** A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+    float f1 = 35e3f;
+    double d1 = 12E4d;

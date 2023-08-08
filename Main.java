@@ -34,5 +34,33 @@ public class Main {
     int f, e, d;
     f = e = d = 50;
     System.out.println(e + f + d);
+
+    // The byte data type can store whole numbers from -128 to 127.
+    byte byt = 100;
+    System.out.println(byt);
+
+    // The short data type can store whole numbers from -32768 to 32767:
+    short sht = 5000;
+    System.out.println(sht);
+
+    // The int data type can store whole numbers from -2147483648 to 2147483647.
+    int it = 100000;
+    System.out.println(it);
+
+    // The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. 
+    // ** Note that you should end the value with an "L"
+    long lng = 15000000000L;
+    System.out.println(lng);
+
+    //  float & double can also be a scientific number with an "e" to indicate the power of 10
+    float f1 = 35e3f;
+    double d1 = 12E4d;
+    System.out.println(f1);
+    System.out.println(d1);
+
+
+
+
+
   }
 }
