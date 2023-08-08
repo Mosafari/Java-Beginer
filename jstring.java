@@ -33,6 +33,16 @@ public class jstring {
     int y3 = 20;
     String z3 = x3 + y3;  // z will be 1020 (a String)
 
+    //  Boolean
+    boolean isJavaFun = true;
+    boolean isFishTasty = false;
+    System.out.println(isJavaFun);     // Outputs true
+    System.out.println(isFishTasty);   // Outputs false
+
+    int x4 = 10;
+    int y4 = 9;
+    System.out.println(x4 > y4); // returns true, because 10 is higher than 9
+
 
 
   }
