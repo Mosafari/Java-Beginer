@@ -20,5 +20,20 @@ public class jstring {
     // You can also use the concat() method to concatenate two strings:
     System.out.println(firstName.concat(lastName));
 
+    //  adding two var (str , int)
+    int x = 10;
+    int y = 20;
+    int z = x + y;  // z will be 30 (an integer/number)
+
+    String x2 = "10";
+    String y2 = "20";
+    String z2 = x2 + y2;  // z will be 1020 (a String)
+
+    String x3 = "10";
+    int y3 = 20;
+    String z3 = x3 + y3;  // z will be 1020 (a String)
+
+
+
   }
 }

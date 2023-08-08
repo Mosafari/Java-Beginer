@@ -110,3 +110,9 @@ To create a variable, you must specify the type and assign it a value:
 
 13. Java counts positions from zero.
     0 is the first position in a string, 1 is the second, 2 is the third ...
+
+%**
+    WARNING!
+        Java uses the + operator for both addition and concatenation.
+        Numbers are added. Strings are concatenated.
+                                                                        **%
