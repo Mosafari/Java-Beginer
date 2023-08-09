@@ -15,6 +15,9 @@ public class ifelse {
             } else{
                 System.out.println("Thats imposible :|");
             }
-
+            // There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
+            age = 18;
+            String result = (18 <= age  && age < 100) ? "You are old enough!" : "You are not old enough!";
+            System.out.println(result);
          }
 }
