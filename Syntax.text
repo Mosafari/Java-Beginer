@@ -116,3 +116,8 @@ To create a variable, you must specify the type and assign it a value:
         Java uses the + operator for both addition and concatenation.
         Numbers are added. Strings are concatenated.
                                                                         **%
+
+14. The break statement can also be used to jump out of a loop(for, while) and switch.
+
+15. The continue statement breaks one iteration (in the loop), if a specified condition 
+    occurs, and continues with the next iteration in the loop.
