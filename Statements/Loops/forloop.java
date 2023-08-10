@@ -22,7 +22,11 @@ public class forloop {
             System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
             }
         } 
-        
+        // There is also a "for-each" loop, which is used exclusively to loop through elements in an array
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
     
 }
