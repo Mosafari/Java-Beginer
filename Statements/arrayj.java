@@ -19,5 +19,16 @@ public class arrayj {
         // To find out how many elements an array has, use the length property:
         System.out.println(cars.length);
         // Outputs 4
+
+        // You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run.
+        // The following example outputs all elements in the cars array:
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+          }
+
+        //   There is also a "for-each" loop, which is used exclusively to loop through elements in arrays:
+        for (String i : cars) {
+            System.out.println(i);
+          }
     }
 }
