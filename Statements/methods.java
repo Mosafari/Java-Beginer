@@ -11,6 +11,13 @@ public class methods {
     static void wakeup(String fname) {
         System.out.println("bidar shoo " + fname);
         }
+    static int plusMethod(int x, int y) {
+        return x + y;
+        }
+        
+    static double plusMethod(double x, double y) {
+    return x + y;
+    }
     public static void main(String[] args) {
 //         A method is a block of code which only runs when it is called.
 //         You can pass data, known as parameters, into a method.
@@ -55,6 +62,14 @@ public class methods {
         System.out.println(z);
 
         // ** also It is common to use if...else statements inside methods
+
+        // With method overloading, multiple methods can have the same name with different parameters
+        // Instead of defining two methods that should do the same thing, it is better to overload one. 
+        int myNum1 = plusMethod(8, 5);
+        double myNum2 = plusMethod(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2);
+        // Note: Multiple methods can have the same name as long as the number and/or type of parameters are different.
     }
     
 }
