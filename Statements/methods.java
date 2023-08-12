@@ -4,6 +4,9 @@ public class methods {
     static void myMethod() {
             System.out.println("I just got executed!");
         }
+    static int myReturnMethod(int x, int y) {
+        return 5 + x;
+        }
 
     static void wakeup(String fname) {
         System.out.println("bidar shoo " + fname);
@@ -44,6 +47,14 @@ public class methods {
         // Note that when you are working with multiple parameters, the method call must have the same number of arguments as there are parameters,
         //  and the arguments must be passed in the same order.
 
+        // The void keyword, used in the examples above, indicates that the method should not return a value. If you want the method to return a 
+        // value, you can use a primitive data type (such as int, char, etc.) instead of void, and use the return keyword inside the method
+        System.out.println(myReturnMethod(5,7));
+        // You can also store the result in a variable (recommended, as it is easier to read and maintain)
+        int z = myReturnMethod(9,7);
+        System.out.println(z);
+
+        // ** also It is common to use if...else statements inside methods
     }
     
 }
