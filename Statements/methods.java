@@ -4,6 +4,10 @@ public class methods {
     static void myMethod() {
             System.out.println("I just got executed!");
         }
+
+    static void wakeup(String fname) {
+        System.out.println("bidar shoo " + fname);
+        }
     public static void main(String[] args) {
 //         A method is a block of code which only runs when it is called.
 //         You can pass data, known as parameters, into a method.
@@ -26,9 +30,19 @@ public class methods {
             // To call a method in Java, write the method's name followed by two parentheses () and a semicolon;
         myMethod();
 
-        // A method can also be called multiple times
+        // ** A method can also be called multiple times
         myMethod();
         myMethod();
+
+        // Information can be passed to methods as parameter. Parameters act as variables inside the method.
+        // Parameters are specified after the method name, inside the parentheses. You can add as many parameters
+        //  as you want, just separate them with a comma.
+        wakeup("agha reza!!");
+        wakeup("reza jan!!");
+        // ** When a parameter is passed to the method, it is called an argument.
+        //  ** You can have as many parameters as you like
+        // Note that when you are working with multiple parameters, the method call must have the same number of arguments as there are parameters,
+        //  and the arguments must be passed in the same order.
 
     }
     
