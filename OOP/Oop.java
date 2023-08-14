@@ -36,6 +36,13 @@ public class Oop {
         // To create an object of Oop, specify the class name, followed by the object name, and use the keyword new
         Oop ins = new Oop();
         System.out.println("The value of X in Main method : " + ins.x);
+
+        // You can create multiple objects of one class:
+        Oop obj1 = new Oop(); // Object 1
+        Oop obj2 = new Oop(); // Object 2
+        System.out.println("The value of X in Main method : " + obj1.x);
+        System.out.println("The value of X in Main method : " + obj2.x);
+
     }
     
 }
