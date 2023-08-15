@@ -30,9 +30,13 @@ public class JPackage {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         System.out.print("Enter username : ");
-    
+        // The error "Resource leak: 'myObj' is never closed" occurs because the code opens a resource
+        // (in this case, a Scanner object) but fails to close it properly.
+        // To fix this issue, you should call the close() method on the myObj Scanner object before the end of
+        // the main method. This will release any system resources associated with the object.
         String userName = myObj.nextLine();
         System.out.println("Username is: " + userName);
+        myObj.close();
       }
 
     //   Import a Package
