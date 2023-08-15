@@ -1,6 +1,5 @@
 package OOP;
 
-import Statements.methods;
 
 public class Main {
     static void myMethod() {
