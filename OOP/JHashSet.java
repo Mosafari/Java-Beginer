@@ -2,8 +2,6 @@ package OOP;
 
 import java.util.HashSet; // Import the HashSet class
 
-import javax.print.attribute.standard.MediaSize.Other;
-
 // A HashSet is a collection of items where every item is unique, and it is found in the java.util package
 public class JHashSet {
     public static void main(String[] args) {
