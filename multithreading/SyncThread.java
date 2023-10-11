@@ -25,6 +25,7 @@ public class SyncThread {
 class HashMapProcessor implements Runnable{
     
     private String[] strArr = null;
+    private Object lock = new Object();
     
     public HashMapProcessor(String[] m){
         this.strArr=m;
@@ -48,7 +49,10 @@ class HashMapProcessor implements Runnable{
     }
     
     private void addThreadName(int i, String name) {
+        // strArr[i] = strArr[i] +":"+name;
+        synchronized(lock){
         strArr[i] = strArr[i] +":"+name;
+        }
     }
 
     private void processSomething(int index) {
